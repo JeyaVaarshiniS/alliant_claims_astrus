@@ -1,0 +1,54 @@
+fileVersion: 1
+id: 1709c063-4c9b-4402-9a3b-9a9937171e28
+name: ACA_NCCI_TYPE_OF_LOSS_CODE_ESIS
+operation:
+  database: ALLIANT_CLAIMS_ASTRUS
+  deployEnabled: true
+  description: ""
+  locationName: DBSHIFT
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1a80d5b5-7798-4c12-87eb-82b53e71025d
+          stepCounter: 1709c063-4c9b-4402-9a3b-9a9937171e28
+        config: {}
+        dataType: VARCHAR
+        defaultValue: ""
+        description: ""
+        name: NCCI_TYPE_OF_LOSS_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5122b512-421f-49b8-a15d-85f029e06173
+          stepCounter: 1709c063-4c9b-4402-9a3b-9a9937171e28
+        config: {}
+        dataType: VARCHAR
+        defaultValue: ""
+        description: ""
+        name: NCCI_TYPE_OF_LOSS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: ACA_NCCI_TYPE_OF_LOSS_CODE_ESIS
+  schema: REF
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
